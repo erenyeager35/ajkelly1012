@@ -1,0 +1,86 @@
+/* Universal Styles */ 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: normal;
+}
+
+body {
+    padding: 20px 50px;
+}
+
+/* Header Section */
+header {
+    margin: 0 auto;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2.25rem;
+   }
+
+.features {
+    text-align: center;
+}
+
+.features h3 {
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.features span {
+    height: 10px;
+    border-right: 1px black solid;
+    margin-right: 15px;
+}
+
+header h4 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+
+/* Videos Section */
+
+.videos-box {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.box {
+    margin-top: 10px;
+}
+
+/* Social Media */ 
+.social-media {
+    height: 5rem;
+    margin: auto 5px;
+    text-align: center;;
+}
+
+i {
+    margin: auto 5px;
+}
+/* Contact Us */
+
+form {
+    margin-top: 25px;
+}
+
+/* Footer */
+
+footer {
+    margin-top: 50px;
+}
+
+footer p {
+    text-align: center;
+}
